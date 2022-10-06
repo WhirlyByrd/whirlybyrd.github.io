@@ -1,0 +1,25 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/KaraGardnerHero.jpeg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 7rem;
+    font-weight: 800;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #003861;
+    margin-left: 10%;
+}

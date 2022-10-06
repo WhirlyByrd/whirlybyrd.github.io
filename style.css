@@ -1,3 +1,14 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: #11191F;
+    color: white;
+}
+navbar a {
+    color: white;
+}
+
+
+
 /* hero background image */
 .bgimage {
     height:100vh;
@@ -17,9 +28,90 @@
     font-family: 'Roboto', sans-serif;
     text-align: left;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #003861;
     margin-left: 10%;
 }
+
+#about {
+    background-color: #18232B ;
+    color: white;
+    
+}
+#about-title {
+    color: white;
+}
+.about-text {
+    font-weight:300;
+    color: white;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+.devicon-html5-plain-wordmark {
+    font-size: 4em;
+    padding: 1%;
+}
+.devicon-css3-plain-wordmark{
+    font-size: 4em;
+    padding: 1%;
+}
+.devicon-javascript-plain {
+    font-size: 4em;
+    padding: 1%;
+}
+.devicon-react-original-wordmark{
+    font-size: 4em;
+    padding: 1%;
+}
+.devicon-nodejs-plain{
+    font-size: 4em;
+    padding: 1%;
+}
+.devicon-express-original-wordmark{
+    font-size: 4em;
+    padding: 1%;
+}
+.devicon-github-original-wordmark{
+    font-size: 4em;
+    padding: 1%;
+}
+.devicon-git-plain-wordmark{
+    font-size: 4em;
+    padding: 1%;
+}
+.devicon-postgresql-plain-wordmark{
+    font-size: 4em;
+    padding: 1%;
+}
+.devicon-sequelize-plain{
+    font-size: 4em;
+    padding: 1%;
+}
+.devicon-heroku-original-wordmark{
+    font-size: 4em;
+    padding: 1%;
+}
+.devicon-jest-plain{
+    font-size: 4em;
+    padding: 1%;
+}
+.devicon-selenium-original{
+    font-size: 4em;
+    padding: 1%;
+}
+
+#technologies {
+    margin-top: 5%;
+    padding: 1%;
+}
+
+#technologies-h2 {
+    padding-bottom: 3%;
+}
+

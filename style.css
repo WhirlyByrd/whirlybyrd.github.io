@@ -1,58 +1,78 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: #11191F;
+    background-color: #000;
     
    
 }
 .navbar a {
     color: white;
 }
+
+.navbar a:hover {
+    color:#66D8F2;
+}
 .navbar {
-    background-color: #11191F;
+    background-color: #000;
 }
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/* hero background image */
-.bgimage {
-    height:100vh;
-    background: url('images/KaraGardner5light.jpeg');
-    background-size:cover;
-    position:relative;
-    max-width: 1800px;
-}
-/* text css above hero image*/
-.hero_title {
-    font-size: 5rem;
-    font-weight: 800;
-}
-.hero_desc {
-    font-size: 1.5rem;
-}
-.hero-text {
-    font-family: 'Roboto', sans-serif;
-    text-align: left;
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    color: #003861;
-   
+
+
+.top-row {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 800px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('/images/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #66D8F2;
+    text-align: center;
+    
 }
 
+.hero-text {
+    border-style: solid ;
+    padding: 1.5em;
+}
+
+.hero_title {
+    font-size: 7rem;
+    font-weight: 800;
+    
+}
+.hero_desc {
+    font-size: 2rem;
+    font-weight:200;
+    
+}
+
+
+.photo {
+    width:50%;
+    background-image:url('./images/KaraGardner3.jpeg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+
 #about {
-    background-color: #18232B ;
-    color: white;
-    
-    
+    background-color: #333333 ;
+    color: white;        
 }
 
 #about-title {
-    color: white;
+    color: #66D8F2;;
 }
 .about-text {
+    font-size: 18px;
+    line-height: 2em;
     font-weight:300;
     color: white;
 }
@@ -65,6 +85,7 @@
 .devicon-html5-plain-wordmark {
     font-size: 4em;
     padding: 1%;
+    
 }
 .devicon-css3-plain-wordmark{
     font-size: 4em;
@@ -117,33 +138,73 @@
 
 #technologies {
     margin-top: 5%;
-    padding: 1%;
+    padding-bottom:2em;
 }
 
 #technologies-h2 {
     padding-bottom: 3%;
+    color:#66D8F2;
 }
 
+.container {
+    padding-top: 2em;
+    padding-bottom: 2.5em;
+}
 
+#portfolio {
+    background-color: #666666;
+}
+#portfolio h1 {
+    color: #66D8F2;
+}
+
+#contact {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    border-style: none !important;
+}
+
+.btn  {
+    background-color: #F285AD !important;
+    color:#333333 !important;
+    border-style: none !important;
+    margin-right: 1em;
+    padding:.5em 1em .5em 1em !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+.btn:hover {
+    background-color:#66D8F2 !important;
+}
 
 social media icons styling
 .social-icons {
-   
+  color: white; 
     cursor: pointer;
 }
 .fa-github:hover,.fa-linkedin:hover {
-    color: #008000;
+    color: #66D8F2;
 }
 .fa {
     color: #000000;
 }
 /* footer styling */
 #footer {
-    background-color: #11191F;
+    background-color: #000;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 2%;
-   
-
+    color: white;
     
 }

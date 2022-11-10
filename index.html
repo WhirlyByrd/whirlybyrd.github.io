@@ -37,7 +37,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -55,23 +55,22 @@
     </nav>
 
     <!-- main banner -->
-    <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">Hi. I'm Kara,</h2>
-                <p class="hero_desc">a front-end developer driven by curiosity.</p>
-            </div>
-            </div>
+
+    <section class="top-row">
+        <div class="hero-text">
+            <h2 class="hero_title">Hi. I'm Kara</h2>
+            <p class="hero_desc">a front-end developer driven by curiosity.</p>
         </div>
     </section>
+
+   
 
     <!-- about section-->
     <section id="about">
         <div class="container  pt-4" id="about-div">
             <div class="row mt-4">
                 <div class="col-lg-4">
-                    <img src="images/zachAndI2.jpeg" class= "imageAboutPage" alt="">
+                    <img src="images/KaraGardnerBlue.jpeg" class= "imageAboutPage" alt="">
                 </div>
 
                 <div class="col-lg-8"> 
@@ -81,10 +80,13 @@
                             <p class="about-text"> I am a developer that started out in graphic design. Over time my graphic design gravitated towards designing and building websites with Wordpress. I became familiar with HTML5 and CSS. I knew that I wanted to do more though. In August 2022 I started at DevMountain in order to learn front-end development. Now I can proudly call myself a developer. 
                             </p>
                             
+                            
                         </div>
 
                         <div class="col-md-6">
                             <p class="about-text">I have an insatiable need to learn and love to solve problems. I will always continue to educate myself and grow. When I am not working on a project you will probably find me watching a new documentary, hanging out with my family, or finding lost dogs and returning them to their families.</p>
+                            <a href="https://docs.google.com/document/d/188v3GlNwnkOJnXqLLe3GuoCUJboBsp_bx_cnq2gTKUc/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-success">My Resume</a>
+                            <a href="https://github.com/WhirlyByrd" target="_blank" rel="noopener noreferrer" class="btn btn-success">My Github</a>
                             
                         </div>
                     </div>
@@ -119,7 +121,7 @@
 
     <!-- portfolio section-->
     <section id="portfolio">
-        <div class="container mt-3">
+        <div class="container">
             <h1 class="text-center">Portfolio</h1>
             <div class="row">
                 <div class="col-lg-4 mt-4">
@@ -129,16 +131,32 @@
                             <h4 class="card-title">Multi-Lists</h4>
                             <p class="card-text">This project was created for the DevMountain Foundations course. It is a website that allows the user to create and interact with multiple to-do lists.</p>
                             <div class="text-center">
-                                <a href="#https://youtu.be/wmXA-cNOT90" class="btn btn-success">Demo Video</a>
-                                <a href="#https://github.com/WhirlyByrd/list" class="btn btn-success">Github</a>
+                                <a href="https://youtu.be/wmXA-cNOT90" target="_blank" rel="noopener noreferrer" class="btn btn-success">Demo Video</a>
+                                <a href="https://github.com/WhirlyByrd/list" target="_blank" rel="noopener noreferrer" class="btn btn-success">Github</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <br>
-        </div>
+        
     </section>
+
+    <!--Contact Section-->
+
+    <section id="contact">
+        
+            <div class="contact-row">
+                <form action="https://formsubmit.co/kara.r.gardner@gmail.com" method="POST">
+                    <input type="hidden" name="_next" value="https://whirlybyrd.github.io/thankyou.html">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <input type="text" name="message" placeholder="Enter your message here..." required>
+                    <button type="submit">Send</button>
+               </form>
+            </div>
+       
+    </section>
+
 
     <!-- footer section-->
     <footer id="footer">

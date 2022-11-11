@@ -66,7 +66,7 @@
     background-repeat:no-repeat;
     background-size:cover;
 }
-
+ 
 
 #about {
     padding-top: 3em;
@@ -155,10 +155,7 @@
     color:#66D8F2;
 }
 
-.container {
-    padding-top: 2em;
-    padding-bottom: 2.5em;
-}
+
 
 #portfolio {
     padding: 3em 0 3em 0;
@@ -223,7 +220,6 @@
 
 .social-icons {
   color: white !important;
-  padding: 5em !important; 
     cursor: pointer;
 }
 .fa-github:hover,.fa-linkedin:hover {
@@ -251,6 +247,3 @@
     color: #66D8F2;
 }
 
-#footer p {
-    padding-top: 1em;
-}

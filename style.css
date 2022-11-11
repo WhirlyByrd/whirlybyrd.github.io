@@ -91,62 +91,75 @@
 
 .devicon-html5-plain-wordmark {
     font-size: 4em;
-    padding: 1%;
-    
+    padding: 10px;    
 }
 .devicon-css3-plain-wordmark{
     font-size: 4em;
-    padding: 1%;
+    padding: 10px;
+    
 }
 .devicon-javascript-plain {
     font-size: 4em;
-    padding: 1%;
+    padding: 10px;
+    
 }
 .devicon-react-original-wordmark{
     font-size: 4em;
-    padding: 1%;
+    padding: 10px;
+    
 }
 .devicon-nodejs-plain{
     font-size: 4em;
-    padding: 1%;
+    padding: 10px;
 }
 .devicon-express-original-wordmark{
     font-size: 4em;
-    padding: 1%;
+    padding: 10px;
 }
 .devicon-github-original-wordmark{
     font-size: 4em;
-    padding: 1%;
+    padding: 10px;
 }
 .devicon-git-plain-wordmark{
     font-size: 4em;
-    padding: 1%;
+    padding: 10px;
 }
 .devicon-postgresql-plain-wordmark{
     font-size: 4em;
-    padding: 1%;
+    padding: 10px;
 }
 .devicon-sequelize-plain{
     font-size: 4em;
-    padding: 1%;
+    padding: 10px;
 }
 .devicon-heroku-original-wordmark{
     font-size: 4em;
-    padding: 1%;
+    padding: 10px;
 }
 .devicon-jest-plain{
     font-size: 4em;
-    padding: 1%;
+    padding: 10px;
 }
 .devicon-selenium-original{
     font-size: 4em;
-    padding: 1%;
+    padding: 10px;
 }
+ .devicon {
+    margin-bottom: 1.5em;
+ }
 
 #technologies {
-    margin-top: 5%;
+    display:flex;
+    margin-top: 3em;
     padding-bottom:2em;
     
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #technologies-h2 {

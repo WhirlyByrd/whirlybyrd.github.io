@@ -191,31 +191,18 @@
     padding-bottom: 3em;
 }
 
-.contact-row form {
-    width: 500px;
-    display:flex;
-    flex-direction: column;  
-}
-
-.contact-row form input {
-    padding: .5em;
+.form-group {
     margin-bottom: 1em;
 }
 
-.contact-row form textarea {
-    padding: .4em;
-    color: #666666;
-    margin-bottom: 1em;
-}
 
-.contact-row form button {
-    width: 100%;
-}
+
 
 .card {
     border-style: none !important;
     background-color: #333333 !important;
     color: #fff !important;
+    margin-top: 3em;
 }
 
 .btn  {

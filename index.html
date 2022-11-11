@@ -125,12 +125,13 @@
         <div class="container">
             <h1 class="text-center">Portfolio</h1>
             <div class="row">
-                <div class="col-lg-4 mt-4">
+                <div class="col-sm-6">
                     <div class="card">
                         <img class="card-img-top" src="images/myLists.png" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Multi-Lists</h4>
-                            <p class="card-text">This project was created for the DevMountain Foundations course. It is a website that allows the user to create and interact with multiple to-do lists.</p>
+                            <p class="card-text">This project is a website that allows the user to create and interact with multiple to-do lists. The user can create new lists, add to-do items, check-off items as done, delete items, and delete a list.</p>
+                            <p>Javascript | Node.js | AXIOS | CORS | Express | HTML5 | CSS3 | JSON | Google Fonts API</p>
                             <div class="text-center">
                                 <a href="https://youtu.be/wmXA-cNOT90" target="_blank" rel="noopener noreferrer" class="btn btn-success">Demo Video</a>
                                 <a href="https://github.com/WhirlyByrd/list" target="_blank" rel="noopener noreferrer" class="btn btn-success">Github</a>
@@ -148,13 +149,25 @@
         
             <div class="contact-row">
                 <h1>Contact Me</h1>
-                <form action="https://formsubmit.co/kara.r.gardner@gmail.com" method="POST">
+                <div action="https://formsubmit.co/kara.r.gardner@gmail.com" method="POST">
+                    <div class="form-group">
                     <input type="hidden" name="_next" value="https://whirlybyrd.github.io/thankyou.html">
+                    </div>
+                    <div class="form-group">
                     <input type="hidden" name="_autoresponse" value="Hello, I have recieved your email and will write back to you shortly.">
+                    </div>
+                    <div class="form-group">
                     <input type="hidden" name="_subject" value="New email from portfolio!">
-                    <input type="text" name="name" placeholder="Full Name" required>
-                    <input type="email" name="email" placeholder="Email Address" required>
-                    <textarea type="text" name="message" rows="5" cols="33" required> Enter your message here. </textarea>
+                    </div>
+                    <div class="form-group">
+                    <input class="form-control form-control-lg" type="text" name="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                    <input class="form-control form-control-lg" type="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                    <textarea class="form-control form-control-lg" type="text" name="message" rows="5" cols="33" required> Enter your message here. </textarea>
+                    </div>
                     <button type="submit" class="btn btn-success">Send</button>
                </form>
             </div>

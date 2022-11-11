@@ -1,18 +1,24 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.517);
     
    
 }
 .navbar a {
     color: white;
+    font-size: 18px;
 }
 
 .navbar a:hover {
     color:#66D8F2;
 }
+
+.navbar a.active {
+    color:#66D8F2;
+}
+
 .navbar {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.517);
 }
 
 .navbar-toggler-icon {
@@ -25,7 +31,7 @@
     display: flex;
     align-items:center;
     justify-content: center;
-    height: 800px;
+    height: 100vh;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
@@ -63,6 +69,7 @@
 
 
 #about {
+    padding-top: 3em;
     background-color: #333333 ;
     color: white;        
 }
@@ -139,10 +146,12 @@
 #technologies {
     margin-top: 5%;
     padding-bottom:2em;
+    
 }
 
 #technologies-h2 {
-    padding-bottom: 3%;
+    padding-top: 1em;
+    padding-bottom: 1em;
     color:#66D8F2;
 }
 
@@ -152,6 +161,7 @@
 }
 
 #portfolio {
+    padding: 3em 0 3em 0;
     background-color: #666666;
 }
 #portfolio h1 {
@@ -163,21 +173,55 @@
     align-items: center;
     justify-content: center;
     background-color: #333333;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
-
+.contact-row h1 {
+    color: #66D8F2;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 .contact-row {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 3em;
+}
+
+.contact-row form {
+    width: 500px;
+    display:flex;
+    flex-direction: column;  
+}
+
+.contact-row form input {
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+.contact-row form textarea {
+    padding: .4em;
+    color: #666666;
+    margin-bottom: 1em;
+}
+
+.contact-row form button {
+    width: 100%;
 }
 
 .card {
     border-style: none !important;
+    background-color: #333333 !important;
+    color: #fff !important;
 }
 
 .btn  {
-    background-color: #F285AD !important;
-    color:#333333 !important;
-    border-style: none !important;
+    background-color: transparent !important;
+    color:#fff !important;
+    border-color: #F285AD !important;
     margin-right: 1em;
     padding:.5em 1em .5em 1em !important;
     font-size: 18px !important;
@@ -186,11 +230,13 @@
 
 .btn:hover {
     background-color:#66D8F2 !important;
+    border-color: #66D8F2 !important;
 }
 
-social media icons styling
+
 .social-icons {
-  color: white; 
+  color: white !important;
+  padding: 5em !important; 
     cursor: pointer;
 }
 .fa-github:hover,.fa-linkedin:hover {
@@ -203,8 +249,21 @@ social media icons styling
 #footer {
     background-color: #000;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: white;
     
+}
+
+#footer a {
+    color: white;
+    padding: .5em;
+}
+
+#footer a:hover {
+    color: #66D8F2;
+}
+
+#footer p {
+    padding-top: 1em;
 }
